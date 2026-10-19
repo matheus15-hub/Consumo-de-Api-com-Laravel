@@ -1,0 +1,25 @@
+# Configurações e segredos
+.env
+.env.*
+!.env.example
+
+# Dependências PHP
+vendor/
+
+# Dependências e arquivos gerados pelo frontend
+node_modules/
+public/build/
+
+# Cache e logs
+storage/*.key
+storage/logs/
+bootstrap/cache/*.php
+
+# Bancos de dados locais
+database/*.sqlite
+database/*.sqlite-*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
